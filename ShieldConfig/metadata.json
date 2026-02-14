@@ -1,0 +1,21 @@
+{
+    "name": "T8SpawnPatch",
+    "enabled": true,
+    "data": [
+        {
+            "type": "scriptparsetree",
+            "name": "scripts/zm_common/SpawnPatch.gsc",
+            "path": "SpawnPatch.gsic",
+            "hooks": [
+                "scripts/zm_common/load.gsc"
+            ]
+        },
+        {
+            "type": "hashes",
+            "path": "hashes.txt",
+            "format": "serious_compiler",
+            "ignore_error": true
+        }
+    ],
+    "cache": []
+}
